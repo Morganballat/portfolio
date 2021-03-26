@@ -1,0 +1,16 @@
+.presentation {
+	padding-top: 5rem;
+	display: block;
+	font-family: 'Quicksand', sans-serif;
+	padding: 4rem 1.2rem;
+	text-align: justify;
+	text-justify: inter-word;
+
+	&_xp {
+		padding-top: 2.5rem;
+	}
+
+	&_intro {
+		text-indent: 5rem;
+	}
+}

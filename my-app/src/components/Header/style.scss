@@ -1,8 +1,18 @@
 .header {
-	background-color: aqua;
+	position: fixed;
+	background-color: none;
 	display: flex;
-	max-width: 100%;
+	width: 100%;
 	font-size: 0.8rem;
 	justify-content: space-between;
-	padding: 1.8rem 1rem;
+	padding: 1.8rem 0.1rem;
+	color: rgb(70, 70, 70);
+	font-family: 'Quicksand', sans-serif;
+
+	&_message {
+		margin: auto;
+	}
+	&_name {
+		margin: auto;
+	}
 }

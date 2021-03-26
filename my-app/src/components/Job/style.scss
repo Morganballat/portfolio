@@ -1,0 +1,15 @@
+.job {
+	font-size: 3.7rem;
+	max-width: 100%;
+	position: relative;
+	padding: 18rem 0.5rem 0 0.5rem;
+	background-color: rgba(0, 100, 0, 0.562);
+	text-align: left;
+	display: block;
+	font-family: Indie Flower;
+	line-height: 3.5rem;
+	&_name {
+		background-color: darkmagenta;
+		padding-left: 0.4rem;
+	}
+}
