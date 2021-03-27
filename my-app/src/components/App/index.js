@@ -10,11 +10,13 @@ import Carousel from '../Carousel';
 import Contact from '../Contact';
 import Footer from '../Footer';
 import TechnoBar from '../TechnoBar';
+import Picture from '../Picture';
 
 function App() {
 	return (
 		<div className='app'>
 			<Header />
+			<Picture />
 			<Job />
 			<TechnoBar />
 			<Presentation />
