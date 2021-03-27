@@ -1,0 +1,20 @@
+.techno_bar {
+	background-color: violet;
+	display: block;
+	overflow-y: auto;
+	overflow-x: hidden;
+
+	&_logo {
+		max-width: 2rem;
+		height: auto;
+	}
+	&_logo-html {
+		max-width: 1.7rem;
+		height: auto;
+	}
+
+	&_logo-node {
+		max-width: 2rem;
+		height: auto;
+	}
+}
