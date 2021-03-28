@@ -1,10 +1,17 @@
 import React from 'react';
 
-// import './style.scss';
+import copyright from '../../resources/copyright.png';
+
+import './style.scss';
 
 const Footer = () => (
 	<div className='footer'>
-		<div>FOOTER</div>
+		<div>
+			<img className='copyright' src={copyright} alt='copyright' />
+			2021
+		</div>
+		<div> hour and activity</div>
+		<div> détails </div>
 	</div>
 );
 export default Footer;
