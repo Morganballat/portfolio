@@ -7,9 +7,6 @@
 	}
 }
 
-.bar-container {
-}
-
 .techno_bar {
 	max-width: 100%;
 	margin: auto;
@@ -19,8 +16,6 @@
 	position: relative;
 	white-space: nowrap;
 	animation: moveSlideshow 10s linear infinite;
-
-	// transform: translate3d(0, 0, 0);
 
 	&_logo {
 		max-width: 2rem;
