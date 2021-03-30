@@ -1,4 +1,4 @@
-@keyframes defilement-rtl {
+@keyframes moveSlideshow {
 	0% {
 		transform: translate(100%, 0); /* position initiale à droite */
 	}
@@ -7,34 +7,38 @@
 	}
 }
 
+.bar-container {
+}
+
 .techno_bar {
+	max-width: 100%;
+	margin: auto;
 	background-color: white;
 	display: flex;
 	overflow: hidden;
-	// position: absolute;
+	position: relative;
 	white-space: nowrap;
-	animation: defilement-rtl 10s linear infinite;
+	animation: moveSlideshow 10s linear infinite;
+
+	// transform: translate3d(0, 0, 0);
 
 	&_logo {
 		max-width: 2rem;
 		height: auto;
-		display: inline;
+		display: block;
 		padding-right: 2em;
-		// animation: defilement-rtl 3s infinite linear;
 	}
 	&_logo-html {
 		max-width: 1.7rem;
 		height: auto;
-		display: inline;
+		display: block;
 		padding-right: 2em;
-		// animation: defilement-rtl 3s infinite linear;
 	}
 
 	&_logo-node {
 		max-width: 2rem;
 		height: auto;
-		display: inline;
+		display: block;
 		padding-right: 2em;
-		// animation: defilement-rtl 3s infinite linear;
 	}
 }
