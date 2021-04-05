@@ -6,7 +6,7 @@ import './style.scss';
 import Header from '../Header';
 import Job from '../Job';
 import Presentation from '../Presentation';
-import Carousel from '../Carousel';
+import Carousel from '../../containers/Carousel';
 import Contact from '../Contact';
 import Footer from '../Footer';
 import TechnoBar from '../TechnoBar';

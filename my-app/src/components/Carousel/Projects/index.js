@@ -2,17 +2,16 @@ import React from 'react';
 import Carousel from 'react-elastic-carousel';
 import './style.scss';
 
-import Gamehub from '../../../resources/Gamehub.png';
-
-const Projects = ({}) => {
-	const projectsList = [{ Gamehub }];
+const Projects = ({ projectsList }) => {
+	console.log(projectsList);
 	const projects = projectsList.map((project) => [
 		<div key={project.id} className='projects_carousel'>
-			<p
+			<h1 className='projects_project-title'>{project.name}</h1>
+			<div
 				className='projects_project-image'
-				style={{ backgroundImage: project.Gamehub }}
+				style={{ backgroundImage: project.image }}
 			/>
-			{/* <p className='projects_project-outro'>{project.firstname}</p> */}
+			<p>{project.technos}</p>
 		</div>,
 	]);
 
