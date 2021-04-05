@@ -10,8 +10,8 @@ const Footer = () => (
 			<img className='copyright' src={copyright} alt='copyright' />
 			2021
 		</div>
-		<div> hour and activity</div>
-		<div> détails </div>
+		<div className='footer_activities'> hour and activity</div>
+		<div className='footer_detail'> détails </div>
 	</div>
 );
 export default Footer;

@@ -1,6 +1,8 @@
 .footer {
-	text-align: center;
+	display: flex;
 	background-color: blueviolet;
+	justify-content: space-between;
+	padding: 0.5rem 2rem;
 }
 
 .copyright {
