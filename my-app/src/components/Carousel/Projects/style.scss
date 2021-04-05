@@ -10,10 +10,12 @@
 		border-radius: 1rem;
 		vertical-align: middle;
 		text-align: center;
+		background-image: url(../../../resources/GameHub.png);
+		background-size: 90%;
+		background: center;
 	}
 	&_project-image {
-		width: auto;
-		height: auto;
 		background-color: aquamarine;
+		background-size: cover;
 	}
 }
