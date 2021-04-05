@@ -1,0 +1,14 @@
+.projects {
+	width: auto;
+	&_project {
+		color: black;
+		box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+		transition: 0.3s;
+		padding: 2rem 0.3rem 1rem 0.3rem;
+		margin: 0.9rem;
+		background-color: white;
+		border-radius: 1rem;
+		vertical-align: middle;
+		text-align: center;
+	}
+}

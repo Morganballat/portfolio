@@ -6,7 +6,7 @@ import Projects from './Projects';
 
 const Carousel = () => (
 	<div className='carousel'>
-		<div>ICI LE CAROUSEL</div>
+		<div>Mes réalisations</div>
 		<Projects />
 	</div>
 );
