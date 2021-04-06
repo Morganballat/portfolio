@@ -1,7 +1,7 @@
 // IMPORT ACTIONS
 
 //IMPORT PROJECTS IMAGES
-import GameHub from '../resources/GameHub.png';
+// import GameHub from '../resources/GameHub.png';
 
 // INTIAL STATE
 const initialState = {
@@ -9,14 +9,17 @@ const initialState = {
 		{
 			id: 1,
 			name: 'GameHub',
-			image: { GameHub },
-			technos: 'Node.js CSS',
+			// image: { GameHub },
+			// image: '../../../resources/GameHub',
+			description: 'Mon premier hub: Regroupement de 3 mini-jeux',
+			technos: 'Node.js CSS EJS',
 		},
 		{
-			id: 1,
-			name: 'GameHub',
-			image: { GameHub },
-			technos: 'Node.js CSS',
+			id: 2,
+			name: 'GameHubd',
+			// image: { GameHub },
+
+			technos: 'Node.js CSS ',
 		},
 	],
 };

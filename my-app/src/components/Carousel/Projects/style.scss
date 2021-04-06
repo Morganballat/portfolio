@@ -4,18 +4,16 @@
 		color: black;
 		box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 		transition: 0.3s;
-		padding: 2rem 0.3rem 1rem 0.3rem;
-		margin: 0.9rem;
-		background-color: white;
+		padding: 0rem 0.3rem 1rem 0.3rem;
+		margin: 0rem 0.5rem;
 		border-radius: 1rem;
 		vertical-align: middle;
 		text-align: center;
-		background-image: url(../../../resources/GameHub.png);
 		background-size: 90%;
 		background: center;
 	}
 	&_project-image {
-		background-color: aquamarine;
-		background-size: cover;
+		max-width: 100%;
+		border-radius: 0.5rem;
 	}
 }
