@@ -5,8 +5,8 @@ import Projects from './Projects';
 import './style.scss';
 
 const Carousel = ({ projectsList }) => (
-	<div className='carousel_title'>
-		<div>Quelques réalisations</div>
+	<div>
+		<div className='carousel_title'>Quelques réalisations</div>
 		<Projects projectsList={projectsList} />
 	</div>
 );
