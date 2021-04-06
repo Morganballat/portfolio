@@ -8,15 +8,27 @@ import css from '../../resources/css.png';
 import node from '../../resources/node.png';
 import react from '../../resources/react.png';
 import redux from '../../resources/redux.png';
+import sql from '../../resources/sql.png';
+import git from '../../resources/git.png';
 
 const TechnoBar = () => (
 	<div className='techno_bar'>
-		<img className='techno_bar_logo-html' src={html} alt='html' />
-		<img className='techno_bar_logo' src={css} alt='css' />
-		<img className='techno_bar_logo' src={js} alt='javascript' />
-		<img className='techno_bar_logo' src={react} alt='react' />
-		<img className='techno_bar_logo' src={redux} alt='redux' />
-		<img className='techno_bar_logo-node' src={node} alt='node' />
+		<div className='techno_bar_line-1'>
+			<img className='techno_bar_logo-html' src={html} alt='html' />
+			<img className='techno_bar_logo-css' src={css} alt='css' />
+			<img className='techno_bar_logo-js' src={js} alt='javascript' />
+			<img className='techno_bar_logo-sql' src={sql} alt='sql' />
+		</div>
+
+		<div className='techno_bar_line-2'>
+			<img className='techno_bar_logo-react' src={react} alt='react' />
+			<img className='techno_bar_logo-redux' src={redux} alt='redux' />
+			<img className='techno_bar_logo-node' src={node} alt='node' />
+		</div>
+		<div className='techno_bar_line-3'>
+			<img className='techno_bar_logo-git' src={git} alt='git' />
+		</div>
+		<p className='techno_bar_sentence'>(Ouvert à toutes technologies!)</p>
 	</div>
 );
 export default TechnoBar;

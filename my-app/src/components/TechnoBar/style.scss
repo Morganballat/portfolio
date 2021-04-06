@@ -1,39 +1,103 @@
-@keyframes moveSlideshow {
-	0% {
-		transform: translate(100%, 0); /* position initiale à droite */
-	}
-	100% {
-		transform: translate(-100%, 0); /* position finale à gauche */
-	}
-}
+// @keyframes moveSlideshow {
+// 	0% {
+// 		transform: translate(100%, 0); /* position initiale à droite */
+// 	}
+// 	100% {
+// 		transform: translate(-100%, 0); /* position finale à gauche */
+// 	}
+// }
+
+// .techno_bar {
+// 	max-width: 100%;
+// 	margin: auto;
+
+// 	display: flex;
+// 	overflow: hidden;
+// 	position: relative;
+// 	white-space: nowrap;
+// 	animation: moveSlideshow 10s linear infinite;
+
+// 	&_logo {
+// 		max-width: 2rem;
+// 		height: auto;
+// 		display: block;
+// 		padding-right: 2em;
+// 	}
+// 	&_logo-html {
+// 		max-width: 1.7rem;
+// 		height: auto;
+// 		display: block;
+// 		padding-right: 2em;
+// 	}
+
+// 	&_logo-node {
+// 		max-width: 2rem;
+// 		height: auto;
+// 		display: block;
+// 		padding-right: 2em;
+// 	}
+// }
 
 .techno_bar {
-	max-width: 100%;
-	margin: auto;
+	justify-content: center;
+	&_sentence {
+		text-align: center;
+		font-size: 0.8rem;
+	}
+	&_line-1 {
+		justify-content: space-evenly;
+		// background-color: bisque;
+		width: 100%;
+		margin: 1rem auto;
+		display: flex;
+	}
 
-	display: flex;
-	overflow: hidden;
-	position: relative;
-	white-space: nowrap;
-	animation: moveSlideshow 10s linear infinite;
-
-	&_logo {
-		max-width: 2rem;
-		height: auto;
-		display: block;
-		padding-right: 2em;
+	&_line-2 {
+		justify-content: space-evenly;
+		// background-color: bisque;
+		width: 100%;
+		margin: 1rem auto;
+		display: flex;
+	}
+	&_line-3 {
+		justify-content: space-evenly;
+		// background-color: bisque;
+		width: 100%;
+		margin: auto;
+		display: flex;
 	}
 	&_logo-html {
 		max-width: 1.7rem;
 		height: auto;
-		display: block;
-		padding-right: 2em;
+	}
+
+	&_logo-css {
+		max-width: 2rem;
+		height: auto;
+	}
+	&_logo-sql {
+		max-width: 2rem;
+		height: auto;
+	}
+	&_logo-git {
+		max-width: 2rem;
+		height: auto;
+	}
+	&_logo-react {
+		max-width: 2rem;
+		height: auto;
+	}
+	&_logo-redux {
+		max-width: 2rem;
+		height: auto;
+	}
+	&_logo-js {
+		max-width: 2rem;
+		height: auto;
 	}
 
 	&_logo-node {
 		max-width: 2rem;
 		height: auto;
-		display: block;
-		padding-right: 2em;
 	}
 }
