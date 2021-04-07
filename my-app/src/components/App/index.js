@@ -11,6 +11,7 @@ import Contact from '../Contact';
 import Footer from '../Footer';
 import TechnoBar from '../TechnoBar';
 import Picture from '../Picture';
+import Certifications from '../Certifications';
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 			<Picture />
 			<Job />
 			<TechnoBar />
+			<Certifications />
 			<Presentation />
 			<Carousel />
 			<Contact />
