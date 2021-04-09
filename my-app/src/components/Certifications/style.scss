@@ -30,8 +30,9 @@ a {
 //DESKTOP
 @media (min-width: 1280px) {
 	.certification {
-		width: 50%;
-		height: 50%;
+		background-color: tomato;
+		width: 35%;
+		height: 35%;
 		&_title {
 			text-align: center;
 			font-size: 1.5rem;

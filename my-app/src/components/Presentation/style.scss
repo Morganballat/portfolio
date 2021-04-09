@@ -22,14 +22,15 @@
 //DESKTOP
 @media (min-width: 1280px) {
 	.presentation {
+		background-color: wheat;
 		padding-top: 5rem;
 		display: block;
 		font-family: 'Quicksand', sans-serif;
 		padding: 4rem 1.2rem;
 		text-align: justify;
 		text-justify: inter-word;
-		width: 50%;
-		height: 50%;
+		width: 35%;
+		height: 35%;
 
 		&_xp {
 			padding-top: 2.5rem;

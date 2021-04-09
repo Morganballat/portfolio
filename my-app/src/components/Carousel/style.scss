@@ -15,9 +15,10 @@
 //DESKTOP
 @media (min-width: 1280px) {
 	.carousel {
+		background-color: blue;
+		width: 35%;
+		height: 35%;
 		&_title {
-			width: 50%;
-			height: 50%;
 			text-align: center;
 			font-family: 'Playfair Display', serif;
 			font-size: 3rem;

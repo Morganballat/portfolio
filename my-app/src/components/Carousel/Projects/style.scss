@@ -27,8 +27,9 @@
 //DESKTOP
 @media (min-width: 1280px) {
 	.projects {
-		width: 50%;
-		height: 50%;
+		max-width: 35%;
+		min-height: 35%;
+		background-color: aqua;
 		&_project {
 			color: black;
 
@@ -38,12 +39,12 @@
 			border-radius: 1rem;
 			vertical-align: middle;
 			text-align: center;
-			background-size: 90%;
+			// background-size: 90%;
 			background: center;
 		}
 		&_project-image {
-			width: 50%;
-			height: 50%;
+			width: 35%;
+			height: 35%;
 			border-radius: 0.5rem;
 			box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 		}

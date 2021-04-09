@@ -22,14 +22,17 @@
 //DESKTOP
 @media (min-width: 1280px) {
 	.job {
+		display: flex;
+		background-color: brown;
 		font-size: 3.3rem;
-		width: 50%;
-		height: 50%;
-		position: relative;
-		padding: 0rem 0.5rem 0 0.5rem;
+		width: 35%;
+		height: 35%;
+		position: absolute;
+		// padding: 0rem 0.5rem 0 1rem;
+		justify-content: space-around;
 		max-width: 50%;
 		font-family: 'Playfair Display', serif;
-		line-height: 3.5rem;
+		line-height: 0rem;
 		text-align: right;
 		&_name {
 			// padding-left: 0.4rem;
