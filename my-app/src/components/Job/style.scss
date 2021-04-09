@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
+//MOBILE
+
+// @media (min-width: 479px) {
 .job {
 	font-size: 3.3rem;
 	max-width: 100%;
@@ -12,5 +15,25 @@
 	line-height: 3.5rem;
 	&_name {
 		// padding-left: 0.4rem;
+	}
+}
+// }
+
+//DESKTOP
+@media (min-width: 1280px) {
+	.job {
+		font-size: 3.3rem;
+		width: 50%;
+		height: 50%;
+		position: relative;
+		padding: 0rem 0.5rem 0 0.5rem;
+		max-width: 50%;
+		font-family: 'Playfair Display', serif;
+		line-height: 3.5rem;
+		text-align: right;
+		&_name {
+			// padding-left: 0.4rem;
+			text-align: right;
+		}
 	}
 }

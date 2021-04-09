@@ -1,9 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
+//MOBILE
+
+// @media (min-width: 479px) {
 .carousel {
 	&_title {
 		text-align: center;
 		font-family: 'Playfair Display', serif;
 		font-size: 3rem;
+	}
+}
+// }
+
+//DESKTOP
+@media (min-width: 1280px) {
+	.carousel {
+		&_title {
+			width: 50%;
+			height: 50%;
+			text-align: center;
+			font-family: 'Playfair Display', serif;
+			font-size: 3rem;
+		}
 	}
 }

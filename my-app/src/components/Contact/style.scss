@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
+//MOBILE
+
+// @media (min-width: 479px) {
 .contact {
 	margin: 4rem 0 2rem 0;
 
@@ -18,5 +21,30 @@
 		padding: 3rem 1rem;
 		font-size: 1.6rem;
 		justify-content: center;
+	}
+}
+// }
+
+//DESKTOP
+@media (min-width: 1280px) {
+	.contact {
+		margin: 4rem 0 2rem 0;
+
+		width: 50%;
+		height: 50%;
+		&_title {
+			font-size: 3rem;
+			font-family: 'Playfair Display', serif;
+			text-align: center;
+		}
+		&_device {
+			padding: 1rem 0 0 2rem;
+			font-size: 1.4rem;
+		}
+		&_device-email {
+			padding: 3rem 1rem;
+			font-size: 1.6rem;
+			justify-content: center;
+		}
 	}
 }

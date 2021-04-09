@@ -1,3 +1,6 @@
+//MOBILE
+
+// @media (min-width: 479px) {
 .projects {
 	width: auto;
 	&_project {
@@ -17,5 +20,32 @@
 		max-height: 100%;
 		border-radius: 0.5rem;
 		box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+	}
+}
+// }
+
+//DESKTOP
+@media (min-width: 1280px) {
+	.projects {
+		width: 50%;
+		height: 50%;
+		&_project {
+			color: black;
+
+			transition: 0.3s;
+			padding: 0rem 0.3rem 1rem 0.3rem;
+			margin: 0rem 0.5rem;
+			border-radius: 1rem;
+			vertical-align: middle;
+			text-align: center;
+			background-size: 90%;
+			background: center;
+		}
+		&_project-image {
+			width: 50%;
+			height: 50%;
+			border-radius: 0.5rem;
+			box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+		}
 	}
 }

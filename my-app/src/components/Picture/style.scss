@@ -1,3 +1,6 @@
+//MOBILE
+
+// @media (min-width: 479px) {
 .picture {
 	text-align: center;
 	&_portrait {
@@ -6,5 +9,23 @@
 		margin-top: 5rem;
 		box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 		border-radius: 2rem 1rem;
+	}
+}
+// }
+
+//DESKTOP
+@media (min-width: 1280px) {
+	.picture {
+		width: 50%;
+		height: 50%;
+		text-align: left;
+		position: absolute;
+		&_portrait {
+			width: 12rem;
+			height: auto;
+			margin: 2rem;
+			box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+			border-radius: 2rem 1rem;
+		}
 	}
 }

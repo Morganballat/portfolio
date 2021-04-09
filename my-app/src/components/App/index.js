@@ -20,8 +20,8 @@ function App() {
 			<Picture />
 			<Job />
 			<TechnoBar />
-			<Certifications />
 			<Presentation />
+			<Certifications />
 			<Carousel />
 			<Contact />
 			<Footer />

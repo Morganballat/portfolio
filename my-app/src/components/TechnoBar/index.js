@@ -25,10 +25,10 @@ const TechnoBar = () => (
 			<img className='techno_bar_logo-redux' src={redux} alt='redux' />
 			<img className='techno_bar_logo-node' src={node} alt='node' />
 		</div>
+		<p className='techno_bar_sentence'>(Ouvert à toutes technologies!)</p>
 		<div className='techno_bar_line-3'>
 			<img className='techno_bar_logo-git' src={git} alt='git' />
 		</div>
-		<p className='techno_bar_sentence'>(Ouvert à toutes technologies!)</p>
 	</div>
 );
 export default TechnoBar;

@@ -38,6 +38,9 @@
 // 	}
 // }
 
+//MOBILE
+
+// @media (min-width: 479px) {
 .techno_bar {
 	justify-content: center;
 	&_sentence {
@@ -99,5 +102,76 @@
 	&_logo-node {
 		max-width: 2rem;
 		height: auto;
+	}
+}
+// }
+
+//DESKTOP
+@media (min-width: 1280px) {
+	.techno_bar {
+		justify-content: center;
+		width: 50%;
+		height: 50%;
+
+		&_sentence {
+			text-align: center;
+			font-size: 0.8rem;
+		}
+		&_line-1 {
+			justify-content: space-evenly;
+			// background-color: bisque;
+			width: 100%;
+			margin: 1rem auto;
+			display: flex;
+		}
+
+		&_line-2 {
+			justify-content: space-evenly;
+			// background-color: bisque;
+			width: 100%;
+			margin: 1rem auto;
+			display: flex;
+		}
+		&_line-3 {
+			justify-content: space-evenly;
+			// background-color: bisque;
+			width: 100%;
+			margin: auto;
+			display: flex;
+		}
+		&_logo-html {
+			max-width: 1.7rem;
+			height: auto;
+		}
+
+		&_logo-css {
+			max-width: 2rem;
+			height: auto;
+		}
+		&_logo-sql {
+			max-width: 2rem;
+			height: auto;
+		}
+		&_logo-git {
+			max-width: 2rem;
+			height: auto;
+		}
+		&_logo-react {
+			max-width: 2rem;
+			height: auto;
+		}
+		&_logo-redux {
+			max-width: 2rem;
+			height: auto;
+		}
+		&_logo-js {
+			max-width: 2rem;
+			height: auto;
+		}
+
+		&_logo-node {
+			max-width: 2rem;
+			height: auto;
+		}
 	}
 }
