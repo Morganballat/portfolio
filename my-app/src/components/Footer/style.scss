@@ -3,7 +3,7 @@
 // @media (min-width: 479px) {
 .footer {
 	display: flex;
-
+	color: rgb(70, 70, 70);
 	justify-content: space-between;
 	padding: 0.5rem 2rem;
 	width: auto;
@@ -16,15 +16,4 @@
 
 //DESKTOP
 @media (min-width: 1280px) {
-	.footer {
-		display: flex;
-
-		justify-content: space-between;
-		padding: 0.5rem 2rem;
-		width: auto;
-	}
-
-	.copyright {
-		max-width: 0.7rem;
-	}
 }
