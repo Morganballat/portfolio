@@ -58,7 +58,7 @@
 // @media (min-width: 479px) {
 .techno_bar {
 	justify-content: center;
-	animation: showup 5s;
+
 	&_sentence {
 		text-align: center;
 		font-size: 0.8rem;
@@ -125,6 +125,7 @@
 //DESKTOP
 @media (min-width: 1280px) {
 	.techno_bar {
+		animation: showup 3s;
 		// margin: 2rem 10rem;
 		margin: -4rem 0rem 4rem 1rem;
 		padding-right: 35rem;
