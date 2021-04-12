@@ -10,7 +10,6 @@
 	justify-content: space-between;
 	padding: 1.8rem 0.1rem;
 	color: rgb(70, 70, 70);
-	font-family: 'Quicksand', sans-serif;
 
 	&_message {
 		margin: auto;
@@ -24,22 +23,20 @@
 //DESKTOP
 @media (min-width: 1280px) {
 	.header {
-		background-color: aqua;
-		display: block;
-		max-width: 100%;
-		font-size: 1rem;
-		padding: 0.5rem 0.1rem;
+		position: fixed;
+		background-color: none;
+		display: flex;
+		width: 100%;
+		font-size: 0.8rem;
+		justify-content: space-between;
+		padding: 1.8rem 0.1rem;
 		color: rgb(70, 70, 70);
-		font-family: 'Quicksand', sans-serif;
-		text-align: left;
-		position: relative;
 
 		&_message {
-			background-color: red;
+			margin: auto;
 		}
 		&_name {
-			background-color: red;
-			font-size: 2rem;
+			margin: auto;
 		}
 	}
 }

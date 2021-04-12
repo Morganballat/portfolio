@@ -1,3 +1,5 @@
+@use 'src/styles/vars' as v;
+
 //MOBILE
 
 // @media (min-width: 479px) {
@@ -12,29 +14,26 @@ body {
 	background-color: #f9f9f9;
 	width: 100vw;
 	overflow: hidden;
+	font-family: v.$text-font;
 }
 // }
 
 //FONT = AEONIK FOR CONTENTS
-//AMPERSAND FOR TITLES
+//AMPERSAND FOR TITLES (Not free, so MAK FONT)
 
 //DESKTOP
 @media (min-width: 1280px) {
 	body {
-		max-width: 100vw;
-		max-height: 100vh;
+		width: auto;
 		margin: 0;
 		padding: 0;
-		overflow: hidden;
+		overflow-x: hidden;
 	}
 
 	.app {
-		background-color: springgreen;
+		background-color: #f9f9f9;
 		width: 100vw;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		// order: 2;
+		overflow: hidden;
 	}
 }
 

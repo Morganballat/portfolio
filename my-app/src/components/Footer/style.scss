@@ -18,14 +18,10 @@
 @media (min-width: 1280px) {
 	.footer {
 		display: flex;
-		background-color: red;
-		justify-content: space-around;
-
-		padding: 0 0;
-		width: 100%;
-		max-width: 100%;
-		bottom: 0;
-		position: absolute;
+		background-color: blueviolet;
+		justify-content: space-between;
+		padding: 0.5rem 2rem;
+		width: auto;
 	}
 
 	.copyright {

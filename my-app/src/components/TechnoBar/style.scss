@@ -109,11 +109,8 @@
 //DESKTOP
 @media (min-width: 1280px) {
 	.techno_bar {
-		background-color: yellow;
+		margin: 2rem 10rem;
 		justify-content: center;
-		width: 35%;
-		height: 35%;
-
 		&_sentence {
 			text-align: center;
 			font-size: 0.8rem;

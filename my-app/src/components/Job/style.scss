@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
-
+// @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@use 'src/styles/vars' as v;
 //MOBILE
 
 // @media (min-width: 479px) {
@@ -11,32 +11,29 @@
 
 	text-align: center;
 	display: block;
-	font-family: 'Playfair Display', serif;
+	// font-family: 'Playfair Display', serif;
+	font-family: v.$title-font;
 	line-height: 3.5rem;
-	&_name {
-		// padding-left: 0.4rem;
-	}
+
+	// &_name {
+	// padding-left: 0.4rem;
+	// }
 }
 // }
 
 //DESKTOP
 @media (min-width: 1280px) {
 	.job {
-		display: flex;
-		background-color: brown;
-		font-size: 3.3rem;
-		width: 35%;
-		height: 35%;
-		position: absolute;
-		// padding: 0rem 0.5rem 0 1rem;
-		justify-content: space-around;
-		max-width: 50%;
-		font-family: 'Playfair Display', serif;
-		line-height: 0rem;
-		text-align: right;
+		font-size: 10rem;
+		max-width: 100%;
+		position: relative;
+		padding: 0rem 0.5rem 6rem 0.5rem;
+		margin-top: -20rem;
+		text-align: left;
+		display: block;
+
 		&_name {
-			// padding-left: 0.4rem;
-			text-align: right;
+			padding: 2rem 2rem;
 		}
 	}
 }

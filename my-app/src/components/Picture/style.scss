@@ -16,15 +16,11 @@
 //DESKTOP
 @media (min-width: 1280px) {
 	.picture {
-		background-color: tan;
-		width: 35%;
-		height: 35%;
-		text-align: left;
-		// position: absolute;
+		text-align: right;
 		&_portrait {
-			width: 12rem;
+			width: 20%;
 			height: auto;
-			margin: 2rem;
+			margin: 4rem 7rem 0rem 2rem;
 			box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 			border-radius: 2rem 1rem;
 		}

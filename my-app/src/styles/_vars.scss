@@ -1,0 +1,13 @@
+@font-face {
+	font-family: Mak;
+	src: url('../fonts/Mak-font/MAK.otf') format('opentype');
+}
+
+@font-face {
+	font-family: Aeonik;
+	src: url('../fonts/Aeonik-font-download/Aeonik-Regular.otf')
+		format('opentype');
+}
+
+$title-font: Mak;
+$text-font: Aeonik;

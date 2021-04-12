@@ -1,10 +1,12 @@
+@use 'src/styles/vars' as v;
+
 //MOBILE
 // @media (min-width: 479px) {
 .certification {
-	//
 	&_title {
 		text-align: center;
-		font-size: 1.5rem;
+		font-size: 3rem;
+		font-family: v.$title-font;
 	}
 
 	&_anssi_logo {
@@ -30,25 +32,29 @@ a {
 //DESKTOP
 @media (min-width: 1280px) {
 	.certification {
-		background-color: tomato;
-		width: 35%;
-		height: 35%;
+		margin: 2rem 12rem;
+		padding-bottom: 2rem;
 		&_title {
 			text-align: center;
-			font-size: 1.5rem;
 		}
 
 		&_anssi_logo {
 			max-width: 2rem;
-			max-height: 2rem;
 			height: auto;
 			margin: 0rem 1rem;
+			vertical-align: middle;
 		}
 		&_opquast_logo {
 			max-width: 2rem;
 			height: auto;
-			max-height: 2rem;
 			margin: 0rem 1rem;
+			vertical-align: middle;
+		}
+		&_oclock_logo {
+			max-width: 2rem;
+			height: auto;
+			margin: 0rem 1rem;
+			vertical-align: middle;
 		}
 	}
 
@@ -56,5 +62,6 @@ a {
 		display: flex;
 		padding: 0.5rem 1.5rem;
 		text-align: center;
+		text-decoration: none;
 	}
 }

@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
-
+@use 'src/styles/vars' as v;
 //MOBILE
 
 // @media (min-width: 479px) {
 .carousel {
 	&_title {
 		text-align: center;
-		font-family: 'Playfair Display', serif;
+		font-family: v.$title-font;
 		font-size: 3rem;
 	}
 }
@@ -15,12 +14,9 @@
 //DESKTOP
 @media (min-width: 1280px) {
 	.carousel {
-		background-color: blue;
-		width: 35%;
-		height: 35%;
+		margin: 2rem 15rem;
 		&_title {
 			text-align: center;
-			font-family: 'Playfair Display', serif;
 			font-size: 3rem;
 		}
 	}

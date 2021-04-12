@@ -4,7 +4,7 @@
 .presentation {
 	padding-top: 5rem;
 	display: block;
-	font-family: 'Quicksand', sans-serif;
+	// font-family: 'Quicksand', sans-serif;
 	padding: 4rem 1.2rem;
 	text-align: justify;
 	text-justify: inter-word;
@@ -22,15 +22,13 @@
 //DESKTOP
 @media (min-width: 1280px) {
 	.presentation {
-		background-color: wheat;
 		padding-top: 5rem;
 		display: block;
-		font-family: 'Quicksand', sans-serif;
+
 		padding: 4rem 1.2rem;
 		text-align: justify;
 		text-justify: inter-word;
-		width: 35%;
-		height: 35%;
+		margin: 2rem 15rem;
 
 		&_xp {
 			padding-top: 2.5rem;

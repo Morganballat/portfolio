@@ -4,11 +4,23 @@ import './style.scss';
 
 import anssiLogo from '../../resources/Anssi.png';
 import opquastLogo from '../../resources/Logo-Opquast.png';
+import oclockLogo from '../../resources/Oclock.png';
 
 const Certifications = () => (
 	<div className='certification'>
 		<div className='certification_title'>Certifications</div>
-
+		<a href='https://www.oclock.io'>
+			<img
+				alt='oclock-logo'
+				className='certification_oclock_logo'
+				src={oclockLogo}
+			/>
+			<div className='certification_name'>
+				OCLOCK : ECOLE DE PROGRAMMATION WEB. LABELISEE GRANDE ECOLE DU
+				NUMERIQUE. JAVASCRIPT FULLSTACK & SPECIALISATION REACT (TITRE
+				PROFESSIONNEL DE NIVEAU V FIN MAI)
+			</div>
+		</a>
 		<a href='https://www.ssi.gouv.fr'>
 			<img
 				alt='anssi-logo'
@@ -16,7 +28,7 @@ const Certifications = () => (
 				src={anssiLogo}
 			/>
 			<div className='certification_name'>
-				Agence nationale de la sécurité des systèmes d'information
+				AGENCE NATIONALE DE LA SECURITE DES SYSTEMES D'INFORMATION
 			</div>
 		</a>
 
@@ -26,7 +38,9 @@ const Certifications = () => (
 				className='certification_opquast_logo'
 				src={opquastLogo}
 			/>
-			<div className='certification_name'>OPQUAST (Open Quality Standards)</div>
+			<div className='certification_name'>
+				OPQUAST (OPEN QUALITY STANDARDS / BONNES PRATIQUES)
+			</div>
 		</a>
 	</div>
 );
