@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Zoom from 'react-reveal/Zoom';
 import './style.scss';
 
 // IMPORT DES COMPOSANTS OU CONTAINERS
@@ -23,7 +23,9 @@ function App() {
 			<Presentation />
 			<Certifications />
 			<Carousel />
-			<Contact />
+			<Zoom>
+				<Contact />
+			</Zoom>
 			<Footer />
 		</div>
 	);

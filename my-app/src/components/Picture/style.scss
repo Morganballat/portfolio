@@ -1,19 +1,10 @@
-@keyframes showup {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
 //MOBILE
 
 // @media (min-width: 479px) {
 .picture {
 	text-align: center;
 	&_portrait {
-		width: 60%;
+		width: 20rem;
 		height: auto;
 		margin-top: 5rem;
 		box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
@@ -28,9 +19,6 @@
 		text-align: right;
 
 		&_portrait {
-			animation: showup 1s;
-			width: 20%;
-
 			margin: 4rem 7rem 0rem 2rem;
 		}
 	}

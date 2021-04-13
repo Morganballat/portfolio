@@ -33,6 +33,9 @@
 		text-align: center;
 
 		justify-content: space-between;
+		&_title {
+			margin-bottom: 2rem;
+		}
 
 		&_device-email {
 			padding: 2rem 1rem;
