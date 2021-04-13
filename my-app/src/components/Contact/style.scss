@@ -4,24 +4,24 @@
 
 // @media (min-width: 479px) {
 .contact {
-	margin: 4rem 0 2rem 0;
+	margin: 4rem 0 4rem 0;
 	color: rgb(70, 70, 70);
 	width: auto;
 
 	&_title {
-		font-size: 3rem;
+		font-size: 2.5rem;
 		text-align: center;
 		font-family: v.$title-font;
 		color: black;
 	}
 	&_device {
 		padding: 1rem 0 0 2rem;
-		font-size: 1.4rem;
+		font-size: 1.3rem;
 	}
 	&_device-email {
-		padding: 3rem 1rem;
-		font-size: 1.6rem;
-		justify-content: center;
+		padding: 2rem 1rem;
+		font-size: 1.5rem;
+		text-align: center;
 	}
 }
 // }

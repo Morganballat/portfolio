@@ -11,7 +11,7 @@ const Footer = () => {
 
 	let activity = null;
 	if (now > 0 + 'H' + 0) {
-		activity = 'Sauve Gotham des griffes du Joker';
+		activity = 'suis masqué en collant';
 	} else if (now > 6 + 'H' + 0) {
 		activity = 'dors ou fais du sport (en plus ça rime)';
 	} else if (now > 8 + 'H' + 0) {
@@ -21,19 +21,33 @@ const Footer = () => {
 	} else if (now > 20 + 'H' + 0) {
 		activity = 'cuisine des sons';
 	}
+	let displayFooter = null;
 
-	return (
-		<div className='footer'>
+	if (window.innerWidth < 959) {
+		displayFooter = (
 			<div>
-				<img className='copyright' src={copyright} alt='copyright' />
-				2021
+				<div>
+					<img className='copyright' src={copyright} alt='copyright' />
+					2021
+				</div>
 			</div>
-			<div className='footer_activities'>
-				{' '}
-				{now} Alors je {activity}
+		);
+	} else {
+		displayFooter = (
+			<div className='footer'>
+				<div>
+					<img className='copyright' src={copyright} alt='copyright' />
+					2021
+				</div>
+				<div className='footer_activities'>
+					{' '}
+					{now} Alors je {activity}
+				</div>
+				<div className='footer_detail'> détails </div>
 			</div>
-			<div className='footer_detail'> détails </div>
-		</div>
-	);
+		);
+	}
+
+	return <div>{displayFooter}</div>;
 };
 export default Footer;
