@@ -21,18 +21,7 @@ const Projects = ({ projectsList }) => {
 
 	return (
 		<div className='projects'>
-			<div className='projects_project'>
-				{projects}
-				{/* Le carousel pour le site en mode bureau; j'affiche le site mobile avec les aperçu en mode cartes */}
-				{/* <Carousel
-					itemsToShow={1}
-					autoPlaySpeed={7000}
-					enableAutoPlay
-					responsive
-				>
-					{projects}
-				</Carousel> */}
-			</div>
+			<div className='projects_project'>{projects}</div>
 		</div>
 	);
 };
