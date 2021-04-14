@@ -23,7 +23,7 @@ const Footer = () => {
 	}
 	let displayFooter = null;
 
-	if (window.innerWidth < 959) {
+	if (window.innerWidth < 980) {
 		displayFooter = (
 			<div>
 				<div>

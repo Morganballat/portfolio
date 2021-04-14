@@ -2,8 +2,6 @@ import React from 'react';
 // import Carousel from 'react-elastic-carousel';
 import './style.scss';
 
-import GameHub from '../../../resources/GameHub.png';
-
 const Projects = ({ projectsList }) => {
 	console.log(projectsList);
 	const projects = projectsList.map((project) => [
@@ -12,7 +10,7 @@ const Projects = ({ projectsList }) => {
 				<h1 className='projects_project-title'>{project.name}</h1>
 				<img
 					className='projects_project-image'
-					src={GameHub}
+					src={project.image}
 					alt={project.name}
 				/>
 				<p>{project.description}</p>

@@ -1,7 +1,6 @@
 // IMPORT ACTIONS
 
-//IMPORT PROJECTS IMAGES
-// import GameHub from '../resources/GameHub.png';
+import pokédex from '../components/Carousel/sample/POKEDEX.png';
 
 // INTIAL STATE
 const initialState = {
@@ -9,17 +8,19 @@ const initialState = {
 		{
 			id: 1,
 			name: 'GameHub',
-			// image: { GameHub },
-			// image: '../../../resources/GameHub',
-			description: 'Mon premier hub: Regroupement de 3 mini-jeux',
-			technos: 'Node.js CSS EJS',
+			description:
+				'Mon premier hub: Regroupement de 3 mini-jeux réalisés en amont',
+			technos: 'NODE CSS EJS',
+			image: './../sample/GameHub.png',
 		},
 		{
 			id: 2,
-			name: 'GameHubd',
-			// image: { GameHub },
+			name: 'Pokédex',
+			description:
+				'Pokédex réalisé en créant et manipulant une base de données',
 
-			technos: 'Node.js CSS ',
+			technos: 'NODE SQL CSS EJS ',
+			image: { pokédex },
 		},
 	],
 };
