@@ -1,6 +1,6 @@
 import React from 'react';
 
-import portrait from '../../resources/Morgan.jpg';
+import portrait from '../../resources/Morgan.png';
 
 import './style.scss';
 
