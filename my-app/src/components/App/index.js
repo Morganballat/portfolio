@@ -6,7 +6,7 @@ import './style.scss';
 import Header from '../Header';
 import Job from '../Job';
 import Presentation from '../Presentation';
-import Carousel from '../../containers/Carousel';
+import Slider from '../../components/Slider';
 import Contact from '../Contact';
 import Footer from '../Footer';
 import TechnoBar from '../TechnoBar';
@@ -22,7 +22,7 @@ function App() {
 			<TechnoBar />
 			<Presentation />
 			<Certifications />
-			<Carousel />
+			<Slider />
 			<Zoom>
 				<Contact />
 			</Zoom>
