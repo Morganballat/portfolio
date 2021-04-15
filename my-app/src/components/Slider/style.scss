@@ -23,8 +23,9 @@
 	left: 10%;
 	padding: 0rem 1.5rem;
 	text-align: left;
-	background: rgba(0, 0, 0, 0.6);
-	color: white;
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 2rem;
+	color: black;
 
 	&_title {
 		font-size: 1.2rem;
@@ -53,13 +54,14 @@
 		// justify-content: center;
 		width: 60%;
 		position: absolute;
-		top: 70%;
+		top: 75%;
 		transform: translateY(-50%);
 		left: 20%;
 		padding: 0rem 1.5rem;
 		text-align: left;
-		background: rgba(0, 0, 0, 0.6);
-		color: white;
+		background: rgba(255, 255, 255, 0.7);
+		border-radius: 2rem;
+		color: black;
 
 		&_title {
 			font-size: 2rem;
@@ -78,7 +80,7 @@
 
 // @media (min-width: 479px) {
 .projects {
-	color: rgb(70, 70, 70);
+	color: black;
 
 	// width: auto;
 	&_project {
