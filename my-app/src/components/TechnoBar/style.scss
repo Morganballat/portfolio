@@ -23,6 +23,7 @@
 		width: 100%;
 		margin: 1rem auto;
 		display: flex;
+		align-items: flex-start;
 	}
 
 	&_line-2 {
@@ -31,6 +32,7 @@
 		width: 100%;
 		margin: 1rem auto;
 		display: flex;
+		align-items: flex-start;
 	}
 	&_line-3 {
 		justify-content: space-evenly;
@@ -38,40 +40,41 @@
 		width: 100%;
 		margin: auto;
 		display: flex;
+		align-items: flex-start;
 	}
 	&_logo-html {
 		max-width: 1.7rem;
-		max-height: 2rem;
+		height: auto;
 	}
 
 	&_logo-css {
 		max-width: 2rem;
-		max-height: 2rem;
+		height: auto;
 	}
 	&_logo-sql {
 		max-width: 2rem;
-		max-height: 2rem;
+		height: auto;
 	}
 	&_logo-git {
 		max-width: 2rem;
-		max-height: 2rem;
+		height: auto;
 	}
 	&_logo-react {
 		max-width: 2rem;
-		max-height: 2rem;
+		height: auto;
 	}
 	&_logo-redux {
 		max-width: 2rem;
-		max-height: 2rem;
+		height: auto;
 	}
 	&_logo-js {
 		max-width: 2rem;
-		max-height: 2rem;
+		height: auto;
 	}
 
 	&_logo-node {
 		max-width: 2rem;
-		max-height: 2rem;
+		height: auto;
 	}
 }
 // }
@@ -96,7 +99,6 @@
 			width: 100%;
 			margin: 1rem auto;
 			display: flex;
-			align-items: flex-start;
 		}
 
 		&_line-2 {
