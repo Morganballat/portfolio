@@ -71,7 +71,7 @@
 
 	&_logo-node {
 		max-width: 2rem;
-		height: auto;
+		max-height: 2rem;
 	}
 }
 // }
@@ -114,7 +114,7 @@
 		}
 		&_logo-html {
 			max-width: 1.7rem;
-			max-height: 2rem;
+			max-height: 1.7rem;
 		}
 
 		&_logo-css {
@@ -144,7 +144,7 @@
 
 		&_logo-node {
 			max-width: 2rem;
-			height: auto;
+			max-height: 2rem;
 		}
 	}
 }
