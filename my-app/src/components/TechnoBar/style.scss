@@ -96,6 +96,7 @@
 			width: 100%;
 			margin: 1rem auto;
 			display: flex;
+			align-items: flex-start;
 		}
 
 		&_line-2 {
@@ -104,6 +105,7 @@
 			width: 100%;
 			margin: 1rem auto;
 			display: flex;
+			align-items: flex-start;
 		}
 		&_line-3 {
 			justify-content: space-evenly;
@@ -111,6 +113,7 @@
 			width: 100%;
 			margin: auto;
 			display: flex;
+			align-items: flex-start;
 		}
 		&_logo-html {
 			max-width: 1.7rem;
