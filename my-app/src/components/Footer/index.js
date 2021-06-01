@@ -44,7 +44,7 @@ const Footer = () => {
 					{' '}
 					{now} Alors je {activity}
 				</div> */}
-				<div className='footer_detail'> détails </div>
+				{/* <div className='footer_detail'> détails </div> */}
 			</div>
 		);
 	}

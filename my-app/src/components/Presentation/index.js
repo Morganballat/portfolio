@@ -6,11 +6,17 @@ const Presentation = () => {
 	return (
 		<div className='presentation'>
 			<div className='presentation_intro'>
-				BONJOUR!! JE SUIS MORGAN BALLAT, DEVELOPPEUR WEB. JE TRAVAILLE AVEC
-				REACT-REDUX, SASS, ... J'AI RECEMMENT SUIVI UNE FORMATION JAVASCRIPT
-				FULL-STACK. J'AI DECIDE DE ME SPECIALISER EN FRONT AVEC LE FRAMEWORK
-				REACT, MAIS JE GARDE UN OEIL SUR LE BACK AUSSI. AMELIORER MON NIVEAU EST
-				MON LEITMOTIV
+				Bonjour à vous! Je m'appelle Morgan, j'ai une licence en commerce et de
+				l'expérience dans le domaine, mais les perspectives professionnelles ne
+				m'enthousiasment pas, alors j'ai décidé de prendre le taureau par les
+				cornes. J'ai mûrement réfléchi, expérimenté, et j'ai vraiment eu un coup
+				de cœur pour le développement web. Suite à cela, j'ai choisi de suivre
+				une formation intensive Javascript fullstack et une spécialisation
+				React. Je prends cela comme une bonne prépa pour désormais intégrer une
+				licence en alternance. Je recherche l'Entreprise qui me fera confiance
+				et qui gagnera dans ses rangs un développeur junior dont le leitmotiv
+				est de progresser et de faire progresser son environnement. Soyez sûr de
+				mon volontarisme, humanisme, professionnalisme et de ma détermination!
 			</div>
 		</div>
 	);

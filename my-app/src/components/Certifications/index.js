@@ -18,8 +18,7 @@ const Certifications = () => {
 				/>
 				<div className='certification_name'>
 					OCLOCK : ECOLE DE PROGRAMMATION WEB. LABELISEE GRANDE ECOLE DU
-					NUMERIQUE. JAVASCRIPT FULLSTACK & SPECIALISATION REACT (TITRE
-					PROFESSIONNEL DE NIVEAU V FIN MAI)
+					NUMERIQUE. JAVASCRIPT FULLSTACK & SPECIALISATION REACT
 				</div>
 			</a>
 			<a href='https://www.ssi.gouv.fr'>

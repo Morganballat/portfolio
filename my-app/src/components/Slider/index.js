@@ -29,7 +29,7 @@ const Slider = () => {
 					<div className='overlay'>
 						<p className='overlay_title'>Pokédex</p>
 						<p className='overlay_pres'>
-							18 ans plus tard, je recomplète le pokédex.
+							20 ans plus tard, je recomplète le pokédex.
 						</p>
 						<p className='overlay_tech'>NODE EJS CSS</p>
 					</div>
