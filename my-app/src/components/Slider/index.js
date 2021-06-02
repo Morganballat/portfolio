@@ -21,9 +21,9 @@ const Slider = () => {
 					<div className='overlay'>
 						<p className='overlay_title'>GameHub</p>
 						<p className='overlay_pres'>
-							Un hub de 3 mini-jeux réalisés en JS.
+							Un mini hub de 3 mini-jeux réalisés en JS.
 						</p>
-						<p className='overlay_tech'>NODE EJS CSS MIDDLEWARE</p>
+						<p className='overlay_tech'>NODE EJS CSS</p>
 					</div>
 				</div>
 				<div key='2'>

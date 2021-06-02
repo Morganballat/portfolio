@@ -17,7 +17,7 @@
 .overlay {
 	// justify-content: center;
 	width: 80%;
-	// position: absolute;
+	position: absolute;
 	top: 60%;
 	transform: translateY(-50%);
 	left: 10%;
@@ -51,17 +51,16 @@
 	}
 
 	.overlay {
-		// justify-content: center;
 		width: 60%;
-		position: absolute;
-		top: 75%;
+		// position: absolute;
+		top: 50%;
 		transform: translateY(-50%);
 		left: 20%;
 		padding: 0rem 1.5rem;
 		text-align: left;
-		background: rgba(255, 255, 255, 0.7);
+		background: rgba(91, 91, 91, 0.557);
 		border-radius: 2rem;
-		color: black;
+		color: white;
 
 		&_title {
 			font-size: 2rem;
