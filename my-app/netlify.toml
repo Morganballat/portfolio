@@ -1,7 +1,7 @@
 # example netlify.toml
 [build]
-base="my-app/"
-  command = "npm run build"
+base="my-app"
+  command = "react-scripts build"
   functions = "netlify/functions"
   publish = "build"
 
