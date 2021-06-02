@@ -6,6 +6,8 @@ import Gamehub from './sample/GameHub.png';
 import Pokedex from './sample/POKEDEX.png';
 import Acey from './sample/Acey-deucey.png';
 import Yabon from './sample/Yabon_pronostiqueur.png';
+import Nasa from './sample/nasa-picture.png';
+import Ofig from './sample/ofig.png';
 
 import './style.scss';
 
@@ -49,7 +51,27 @@ const Slider = () => {
 						<p className='overlay_pres'>
 							Une app de pronostiqueur sportif pour gagner un max de moula.
 						</p>
-						<p className='overlay_tech'>NODE REACT-REDUX SCSS MIDDLEWARE API</p>
+						<p className='overlay_tech'>NODE REACT-REDUX SCSS API-ODDS</p>
+					</div>
+				</div>
+				<div key='5'>
+					<img src={Nasa} alt='' className='projects_project-image' />
+					<div className='overlay'>
+						<p className='overlay_title'>Nasa-pictures</p>
+						<p className='overlay_pres'>
+							La tête dans les étoiles, pour des étoiles dans les yeux.
+						</p>
+						<p className='overlay_tech'>REACT CSS API-APOD</p>
+					</div>
+				</div>
+				<div key='6'>
+					<img src={Ofig} alt='' className='projects_project-image' />
+					<div className='overlay'>
+						<p className='overlay_title'>Ofig</p>
+						<p className='overlay_pres'>
+							Une intégration pour s'intégrer aux développeurs.
+						</p>
+						<p className='overlay_tech'>HTML CSS </p>
 					</div>
 				</div>
 			</Carousel>
